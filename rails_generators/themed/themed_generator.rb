@@ -4,7 +4,7 @@ class ThemedGenerator < Rails::Generator::NamedBase
                   :themed_type => :crud,
                   :layout => false,
                   :will_paginate => false,
-                  :engine => :erb
+                  :engine => :haml
   
   attr_reader :controller_routing_path, 
               :singular_controller_routing_path,

@@ -1,10 +1,10 @@
 class ThemeGenerator < Rails::Generator::Base
   
   default_options :app_name => 'Web App',
-                  :layout_type => :administration,
+                  :layout_type => :sign,
                   :theme => :default,
                   :no_layout => false,
-                  :engine => :erb
+                  :engine => :haml
     
   def initialize(runtime_args, runtime_options = {})
     super
